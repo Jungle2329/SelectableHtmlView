@@ -1,6 +1,23 @@
 # SelectableHtmlView
 支持选中，富文本，图片点击的TextView
 
+[![](https://jitpack.io/v/Jungle2329/SelectableHtmlView.svg)](https://jitpack.io/#Jungle2329/SelectableHtmlView)
+
+#### 使用说明
+Add it in your root build.gradle at the end of repositories:
+
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+Step 2. Add the dependency
+
+	dependencies {
+	        implementation 'com.github.Jungle2329:SelectableHtmlView:v1.1'
+	}
+  
 #### 实现的功能
 - 实现读书类软件常用的标记+注释的功能  
 ```
