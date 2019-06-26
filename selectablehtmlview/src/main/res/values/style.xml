@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SelectTextView">
+        <attr name="highLightColor" format="color" />
+        <attr name="highLightTextColor" format="color" />
+    </declare-styleable>
+
+</resources>

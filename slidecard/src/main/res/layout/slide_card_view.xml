@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/llContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.ashen.selectablehtmlview.StopAutoScrollView
+        android:id="@+id/svContent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:descendantFocusability="afterDescendants"
+            android:orientation="vertical">
+
+            <com.ashen.selectablehtmlview.SelectTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="周六早上十点多了，晴纹还赖在床上，似乎听见头顶有人在叫。晴纹开始感的男人已经坐在那里等她了，有点焦急不安的样子，看到晴纹赶快站了起来。晴纹走过去在他对面坐下，之前几次和他在酒吧里见面，并没有如此仔细地端详过他的脸，现在终于有机会了！那张脸因为紧张有点发红，还试图躲避她大胆的目光，这让晴纹觉得很有趣，心下有点好奇他是做什么职业的，可是晴纹不喜欢这样的话题，这样的话题太严肃了，弄得好象是来相亲的。这时服务生走上来问他们要点什么，终于缓解了他们之间紧张的瞬间。店里的音乐很响，都是一些南美洲风格的音乐，过狂欢节似的。几瓶加了柠檬的科罗纳下肚，又凉爽又不滥用酒精，他们闲扯了许多不想干的话题。程峰好象对晴纹的职业与家庭也没有太大的兴趣。晴纹想这正合她意，谁知道今晚之后他们还会不会继续交往，何必问那么多呢？大概十点的光景，晴纹觉得有些累了，于是她表示想回家了，程峰非常配合地站了起来，说要送她回家，并且说平时都有开车，想着今晚肯定要喝上两杯就没有开车来，还是打出租车吧！晴纹醉眼朦胧地望着他，觉得他的样子尤其可爱，好象他喝得还不如她多，一副尽量想保持清醒的样子，难道他怕他自己会酒后乱性？想着晴纹忍不住笑出声来，恐怕世上还没有不吃腥的猫。"
+                android:textColor="#333333"
+                android:textSize="18dp"
+                app:highLightColor="#2627CF8F"
+                app:highLightTextColor="@color/colorText" />
+
+        </LinearLayout>
+
+    </com.ashen.selectablehtmlview.StopAutoScrollView>
+
+    <FrameLayout
+        android:id="@+id/flToucherContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00ff00">
+
+        <View
+            android:id="@+id/vToucher"
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:background="#ff00ff" />
+    </FrameLayout>
+
+    <com.ashen.selectablehtmlview.StopAutoScrollView
+        android:id="@+id/svScroller"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.ashen.selectablehtmlview.SelectTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="周六早上十点多了，晴纹还赖在床上，似乎听见头顶有人在叫。晴纹开始感的男人已经坐在那里等她了，有点焦急不安的样子，看到晴纹赶快站了起来。晴纹走过去在他对面坐下，之前几次和他在酒吧里见面，并没有如此仔细地端详过他的脸，现在终于有机会了！那张脸因为紧张有点发红，还试图躲避她大胆的目光，这让晴纹觉得很有趣，心下有点好奇他是做什么职业的，可是晴纹不喜欢这样的话题，这样的话题太严肃了，弄得好象是来相亲的。这时服务生走上来问他们要点什么，终于缓解了他们之间紧张的瞬间。店里的音乐很响，都是一些南美洲风格的音乐，过狂欢节似的。几瓶加了柠檬的科罗纳下肚，又凉爽又不滥用酒精，他们闲扯了许多不想干的话题。程峰好象对晴纹的职业与家庭也没有太大的兴趣。晴纹想这正合她意，谁知道今晚之后他们还会不会继续交往，何必问那么多呢？大概十点的光景，晴纹觉得有些累了，于是她表示想回家了，程峰非常配合地站了起来，说要送她回家，并且说平时都有开车，想着今晚肯定要喝上两杯就没有开车来，还是打出租车吧！晴纹醉眼朦胧地望着他，觉得他的样子尤其可爱，好象他喝得还不如她多，一副尽量想保持清醒的样子，难道他怕他自己会酒后乱性？想着晴纹忍不住笑出声来，恐怕世上还没有不吃腥的猫。"
+                android:textColor="#333333"
+                android:textSize="18dp"
+                app:highLightColor="#2627CF8F"
+                app:highLightTextColor="@color/colorText" />
+        </LinearLayout>
+
+    </com.ashen.selectablehtmlview.StopAutoScrollView>
+</LinearLayout>
