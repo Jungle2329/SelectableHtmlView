@@ -15,7 +15,7 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	        implementation 'com.github.Jungle2329:SelectableHtmlView:v1.1'
+	        implementation 'com.github.Jungle2329:SelectableHtmlView:1.1'
 	}
   
 #### 实现的功能
